@@ -4,11 +4,19 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.stu</groupId>
+<<<<<<< 42ce3b1625680659dd3188f03785bc0d7cec2a84
 	<artifactId>Shopping-Management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Shopping-Management</name>
+=======
+	<artifactId>Shopping-Show</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>Shopping-Show</name>
+>>>>>>> show
 	<description>Java project for Spring Boot</description>
 
 	<parent>
@@ -30,12 +38,15 @@
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
+<<<<<<< 42ce3b1625680659dd3188f03785bc0d7cec2a84
 		<!--热部署  -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 	
+=======
+>>>>>>> show
 		<!-- 时间操作组件 -->
 		<dependency>
 			<groupId>joda-time</groupId>
@@ -53,7 +64,10 @@
 			<artifactId>httpclient</artifactId>
 		</dependency>
 		
+<<<<<<< 42ce3b1625680659dd3188f03785bc0d7cec2a84
 		
+=======
+>>>>>>> show
 		<!-- 日志处理 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -67,6 +81,7 @@
 			<version>1.2.2</version>
 		</dependency>
 		
+<<<<<<< 42ce3b1625680659dd3188f03785bc0d7cec2a84
 	 	<!--  <dependency>
 			<groupId>com.github.pagehelper</groupId>	
 			<artifactId>pagehelper-spring-boot-autoconfigure</artifactId>
@@ -83,10 +98,18 @@
     		<artifactId>pagehelper</artifactId>
    			 <version>3.4.2</version>
 		</dependency> -->
+=======
+		<dependency>				
+    		<groupId>com.github.pagehelper</groupId>
+    		<artifactId>pagehelper</artifactId>
+   			 <version>3.4.2</version>
+		</dependency>
+>>>>>>> show
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+<<<<<<< 42ce3b1625680659dd3188f03785bc0d7cec2a84
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>  
@@ -101,6 +124,11 @@
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>provided</scope>
 		</dependency>
+=======
+		</dependency>
+		
+		<!-- jsp的 -->
+>>>>>>> show
 		
 		<dependency>
 			<groupId>jstl</groupId>
@@ -134,7 +162,10 @@
 			<version>3.4.2</version>
 		</dependency>
 		
+<<<<<<< 42ce3b1625680659dd3188f03785bc0d7cec2a84
 		
+=======
+>>>>>>> show
 		<!-- 文件上传组件 -->
 		<dependency>
 			<groupId>commons-fileupload</groupId>
@@ -172,17 +203,29 @@
 			<version>1.1.6</version>
 		</dependency>
 		
+<<<<<<< 42ce3b1625680659dd3188f03785bc0d7cec2a84
 	
+=======
+		<!-- 缓存 -->
+		<dependency>
+			  <groupId>redis.clients</groupId>
+    			<artifactId>jedis</artifactId>
+    	</dependency>
+		
+>>>>>>> show
 		<dependency>
 			<groupId>org.apache.solr</groupId>
 			<artifactId>solr-solrj</artifactId>
 		</dependency>
 		
+<<<<<<< 42ce3b1625680659dd3188f03785bc0d7cec2a84
 		<!-- 日志 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 		</dependency>
+=======
+>>>>>>> show
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -198,8 +241,11 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+<<<<<<< 42ce3b1625680659dd3188f03785bc0d7cec2a84
 		
 		
+=======
+>>>>>>> show
 	</build>
 
 
